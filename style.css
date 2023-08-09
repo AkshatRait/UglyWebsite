@@ -1,0 +1,37 @@
+img{
+    width: 400px;
+
+}
+
+h1{
+    background-color: hotpink;
+}
+
+div{
+    display: flex; 
+    padding: 50px;
+    width: fit-content;
+}
+
+div{
+   filter: saturate(8);
+}
+
+*:hover{
+    filter:sepia(0.2);
+    filter: saturate(8);
+}
+img:hover{
+    margin: 100%;
+    width: 500px;
+    height: 200px;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+*{
+    filter: grayscale(2);
+}
+
